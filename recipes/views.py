@@ -3,14 +3,12 @@ import json
 
 import requests
 from django.http import JsonResponse
+from django.shortcuts import render
 from django.views.decorators.http import require_GET
 
-from .services import get_recipes_by_category, get_ranking_by_genre
+from .services import get_recipes_by_category, get_ranking_by_genre, search_ichiba_items
 
-APP_ID = "1044782825325736656"
 MAP_PATH = "./script/genre_category_mapping/simple_full_word_mapping.json"
-
-from django.shortcuts import render
 
 
 def index(request):
@@ -120,4 +118,68 @@ def ichiba_ranking(request):
         "code": 0,
         "msg": "success",
         "data": items
-    }, json_dumps_params={"ensure_ascii": False, 'indent': 4},)
+    }, json_dumps_params={"ensure_ascii": False, 'indent': 4}, )
+
+
+@require_GET
+def ichiba_item_search(request):
+    """
+    GET /ichiba_item_search?keyword=オレンジ&page=1&hits=10
+
+    Keyword-only Rakuten Ichiba Item Search wrapper.
+    """
+
+    keyword = request.GET.get("keyword")
+    if not keyword:
+        return JsonResponse({
+            "code": 400,
+            "msg": "'keyword' is required.",
+            "data": {}
+        }, status=400)
+
+    page_str = request.GET.get("page", "1")
+    hits_str = request.GET.get("hits", "30")
+    sort = request.GET.get("sort")  # optional
+
+    try:
+        page = int(page_str)
+        hits = int(hits_str)
+    except ValueError:
+        return JsonResponse({
+            "code": 400,
+            "msg": "'page' and 'hits' must be integers.",
+            "data": {}
+        }, status=400)
+
+    if hits < 1 or hits > 30:
+        return JsonResponse({
+            "code": 400,
+            "msg": "'hits' must be between 1 and 30.",
+            "data": {}
+        }, status=400)
+
+    try:
+        api_result = search_ichiba_items(
+            keyword=keyword,
+            page=page,
+            hits=hits,
+            sort=sort,
+        )
+    except requests.exceptions.RequestException as e:
+        return JsonResponse({
+            "code": 502,
+            "msg": f"Rakuten Ichiba Item Search API request failed: {e}",
+            "data": {}
+        }, status=502)
+    except Exception as e:
+        return JsonResponse({
+            "code": 500,
+            "msg": f"Internal server error: {e}",
+            "data": {}
+        }, status=500)
+
+    return JsonResponse({
+        "code": 0,
+        "msg": "success",
+        "data": api_result,
+    }, json_dumps_params={"ensure_ascii": False, 'indent': 4})

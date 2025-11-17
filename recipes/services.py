@@ -33,10 +33,6 @@ def get_recipes_by_category(category_id, limit=5):
 
 
 def get_ranking_by_genre(genre_id, page=1):
-    """
-    根据 genreId 获取乐天市场的排行榜
-    返回: Rakuten API 返回的 Items 列表（原始结构）
-    """
     url = "https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20220601"
     params = {
         "applicationId": APP_ID,
@@ -51,3 +47,30 @@ def get_ranking_by_genre(genre_id, page=1):
     data = resp.json()
     items = data.get("Items", [])
     return items
+
+
+def search_ichiba_items(keyword, page=1, hits=30, sort=None):
+    """
+    Rakuten Ichiba Item Search API
+    Documentation: https://webservice.rakuten.co.jp/documentation/ichiba-item-search
+
+    keyword must be provided.
+    """
+    url = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601"
+
+    params = {
+        "applicationId": APP_ID,
+        "format": "json",
+        "formatVersion": 2,
+        "page": page,
+        "hits": hits,  # 1–30
+        "keyword": keyword,
+    }
+
+    if sort:
+        # e.g. +itemPrice / -itemPrice / -reviewAverage
+        params["sort"] = sort
+
+    resp = requests.get(url, params=params, timeout=10)
+    resp.raise_for_status()
+    return resp.json()
