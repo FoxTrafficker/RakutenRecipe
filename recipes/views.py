@@ -12,8 +12,10 @@ MAP_PATH = "./script/genre_category_mapping/simple_full_word_mapping.json"
 
 from django.shortcuts import render
 
+
 def index(request):
     return render(request, "index.html")
+
 
 class Recipe:
     def __init__(self):
@@ -65,4 +67,4 @@ def recipe(request):
         "code": 0,
         "msg": "success",
         "data": recipes
-    }, json_dumps_params={"ensure_ascii": False}, )
+    }, json_dumps_params={"ensure_ascii": False, 'indent': 4}, )
