@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #fff;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.learn-more {
+    background: #ff914d;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+
+    margin-right: 70px;   /* ← 追加（数値は好きに調整OK） */
+}
+
+
+.divider {
+    margin: 0 40px;
+    border: 0.5px solid #eee;
+}
+
+/* Title */
+.title-section {
+    padding: 40px;
+}
+
+.title-section h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+.left {
+    flex: 2;
+    line-height: 1.7;
+    font-size: 13px;
+}
+
+.recipe-link {
+    color: #2d7af0;
+    font-size: 12px;
+}
+
+.steps {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.steps li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+.main-image {
+    width: 85%;
+    border-radius: 12px;
+}
+
+/* Recommendations */
+.recommend {
+    padding: 40px;
+}
+
+.recommend h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.recommend-list {
+    display: flex;
+    gap: 25px;
+}
+
+.item img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.name {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.price {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: right;
+    padding: 30px 40px;
+    font-size: 10px;
+    color: #aaa;
+}
