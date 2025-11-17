@@ -1,0 +1,6084 @@
+{
+  "genreId": 100227,
+  "genreName": "食品",
+  "genreLevel": 1,
+  "children": [
+    {
+      "genreId": 110472,
+      "genreName": "米・雑穀",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 201184,
+          "genreName": "白米",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507725,
+          "genreName": "玄米",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201205,
+          "genreName": "発芽玄米",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201196,
+          "genreName": "麦",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566729,
+          "genreName": "もち麦",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201207,
+          "genreName": "もち米",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201199,
+          "genreName": "雑穀・雑穀米",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201201,
+              "genreName": "あわ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507731,
+              "genreName": "きび",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201200,
+              "genreName": "ひえ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507732,
+              "genreName": "赤米",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507733,
+              "genreName": "黒米",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204660,
+              "genreName": "キヌア",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566664,
+              "genreName": "アマランサス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 564077,
+              "genreName": "ブレンド",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201202,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 564660,
+          "genreName": "ジャスミンライス",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 564647,
+          "genreName": "ご飯パック",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 110475,
+          "genreName": "餅",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201209,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 112671,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100236,
+      "genreName": "魚介類・水産加工品",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 304571,
+          "genreName": "アジ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 207790,
+          "genreName": "イカ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304574,
+          "genreName": "イワシ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 207796,
+          "genreName": "ウニ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200904,
+          "genreName": "エビ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410795,
+          "genreName": "カツオ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 110411,
+          "genreName": "カニ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 207774,
+          "genreName": "サケ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304578,
+          "genreName": "サバ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 110404,
+          "genreName": "サンマ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404915,
+          "genreName": "シシャモ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304580,
+          "genreName": "タイ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410813,
+          "genreName": "タコ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404918,
+          "genreName": "タラ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 200884,
+              "genreName": "切り身・丸ごと",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404919,
+              "genreName": "白子",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 404923,
+          "genreName": "生ちりめん・生しらす",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214030,
+          "genreName": "フグ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 110405,
+              "genreName": "切り身・丸ごと",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214031,
+              "genreName": "白子",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 110403,
+          "genreName": "ブリ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404926,
+          "genreName": "ホッケ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 207770,
+          "genreName": "マグロ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566626,
+              "genreName": "赤身",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566627,
+              "genreName": "トロ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566628,
+              "genreName": "大トロ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566629,
+              "genreName": "カマ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110396,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 110406,
+          "genreName": "貝類",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214014,
+              "genreName": "赤貝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200894,
+              "genreName": "アサリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110407,
+              "genreName": "アワビ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304569,
+              "genreName": "エスカルゴ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110408,
+              "genreName": "カキ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110410,
+              "genreName": "サザエ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200895,
+              "genreName": "シジミ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410715,
+              "genreName": "平貝・タイラギ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207783,
+              "genreName": "つぶ貝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410716,
+              "genreName": "とこぶし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410717,
+              "genreName": "鳥貝・トリガイ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410718,
+              "genreName": "ばい貝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207785,
+              "genreName": "ハマグリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110409,
+              "genreName": "ホタテ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404901,
+              "genreName": "ほっき貝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200893,
+              "genreName": "ホヤ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404902,
+              "genreName": "ミル貝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207784,
+              "genreName": "ムール貝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112662,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 110420,
+          "genreName": "海藻類",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566630,
+              "genreName": "昆布",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410743,
+              "genreName": "わかめ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566631,
+              "genreName": "ひじき",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200923,
+              "genreName": "もずく",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214016,
+              "genreName": "海ぶどう",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200922,
+              "genreName": "めかぶ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200924,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112664,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 566610,
+          "genreName": "魚卵",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214009,
+              "genreName": "イクラ・筋子",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 410711,
+                  "genreName": "筋子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214010,
+                  "genreName": "生イクラ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214011,
+                  "genreName": "塩イクラ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214012,
+                  "genreName": "醤油イクラ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 100240,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 410817,
+              "genreName": "たらこ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 507689,
+                  "genreName": "真子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410818,
+                  "genreName": "切れ子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110417,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 410822,
+              "genreName": "明太子",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 507690,
+                  "genreName": "真子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410823,
+                  "genreName": "切れ子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 509655,
+                  "genreName": "イカ明太",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 509657,
+                  "genreName": "クラゲ明太",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 509658,
+                  "genreName": "明太高菜",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110416,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 410747,
+              "genreName": "数の子",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 410748,
+                  "genreName": "塩数の子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410749,
+                  "genreName": "味付け数の子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200918,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 509656,
+              "genreName": "数の子明太",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200398,
+              "genreName": "からすみ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200919,
+              "genreName": "キャビア",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566632,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 110395,
+          "genreName": "その他水産物",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 410789,
+              "genreName": "アイナメ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200886,
+              "genreName": "アユ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 565978,
+              "genreName": "アラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404909,
+              "genreName": "アンコウ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410791,
+              "genreName": "イサキ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207779,
+              "genreName": "イワナ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410792,
+              "genreName": "エイ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410793,
+              "genreName": "オコゼ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207781,
+              "genreName": "カサゴ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410794,
+              "genreName": "カジキ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207782,
+              "genreName": "カマス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200885,
+              "genreName": "カレイ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410797,
+              "genreName": "カワハギ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304577,
+              "genreName": "カンパチ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200892,
+              "genreName": "キス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404911,
+              "genreName": "クエ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200890,
+              "genreName": "クラゲ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207780,
+              "genreName": "コイ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410798,
+              "genreName": "コチ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410800,
+              "genreName": "サヨリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410799,
+              "genreName": "サメ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410801,
+              "genreName": "サワラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410802,
+              "genreName": "スズキ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410803,
+              "genreName": "タチウオ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410804,
+              "genreName": "トビウオ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410819,
+              "genreName": "ナマコ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200889,
+              "genreName": "ニシン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 565977,
+              "genreName": "ノドグロ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200891,
+              "genreName": "ハモ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404925,
+              "genreName": "ハタハタ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200883,
+              "genreName": "ヒラメ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207778,
+              "genreName": "マス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410806,
+              "genreName": "メバル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404929,
+              "genreName": "アカメ・メヒカリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410807,
+              "genreName": "ヤマメ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112661,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 507696,
+          "genreName": "加工品",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214018,
+              "genreName": "ちりめんじゃこ・しらす干し",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566633,
+              "genreName": "新巻",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410732,
+              "genreName": "干物・燻製・スモーク食品",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410738,
+              "genreName": "くさや",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566062,
+              "genreName": "西京漬・漬魚",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410704,
+              "genreName": "塩辛",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566634,
+              "genreName": "カニミソ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566635,
+              "genreName": "あん肝",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507710,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 101535,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 101771,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100228,
+      "genreName": "精肉・肉加工品",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 110428,
+          "genreName": "牛肉",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 110430,
+              "genreName": "サーロイン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110433,
+              "genreName": "スネ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110435,
+              "genreName": "タン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110436,
+              "genreName": "テール",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410824,
+              "genreName": "ハチノス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200928,
+              "genreName": "ハツ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110432,
+              "genreName": "バラ・カルビ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200925,
+              "genreName": "ハラミ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110429,
+              "genreName": "ヒレ・シャトーブリアン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207805,
+              "genreName": "みすじ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200927,
+              "genreName": "ミノ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110434,
+              "genreName": "モモ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207804,
+              "genreName": "ランプ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200926,
+              "genreName": "レバー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207802,
+              "genreName": "肩ロース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207803,
+              "genreName": "リブロース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404930,
+              "genreName": "ホルモン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404932,
+              "genreName": "ギアラ・赤センマイ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304587,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112666,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 200929,
+          "genreName": "豚肉",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 200939,
+              "genreName": "カシラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207806,
+              "genreName": "ガツ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200937,
+              "genreName": "コブクロ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200934,
+              "genreName": "タン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200941,
+              "genreName": "豚足",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200935,
+              "genreName": "ハツ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200932,
+              "genreName": "バラ・カルビ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200931,
+              "genreName": "ヒレ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404935,
+              "genreName": "ホルモン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200940,
+              "genreName": "ミミ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200933,
+              "genreName": "モモ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200936,
+              "genreName": "レバー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200930,
+              "genreName": "ロース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566060,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100230,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 200942,
+          "genreName": "鶏肉",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 200947,
+              "genreName": "カワ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200946,
+              "genreName": "ささみ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200948,
+              "genreName": "砂肝・筋胃",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200943,
+              "genreName": "手羽",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410829,
+              "genreName": "軟骨",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200950,
+              "genreName": "ハツ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200945,
+              "genreName": "ムネ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200944,
+              "genreName": "モモ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200949,
+              "genreName": "レバー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509661,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100231,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 207807,
+          "genreName": "羊肉",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 207808,
+              "genreName": "マトン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207809,
+              "genreName": "ラム",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509665,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200953,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 214037,
+          "genreName": "鴨肉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200954,
+          "genreName": "猪肉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200955,
+          "genreName": "鹿肉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200952,
+          "genreName": "七面鳥",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204803,
+          "genreName": "ダチョウ肉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410830,
+          "genreName": "馬肉",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 509662,
+              "genreName": "霜降り",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509663,
+              "genreName": "赤身",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410832,
+              "genreName": "タテガミ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410837,
+              "genreName": "レバー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410833,
+              "genreName": "タン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410834,
+              "genreName": "ハツ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410836,
+              "genreName": "モツ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509664,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200400,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 566611,
+          "genreName": "挽肉",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566638,
+              "genreName": "牛肉",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566639,
+              "genreName": "豚肉",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566640,
+              "genreName": "鶏肉",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566641,
+              "genreName": "合挽き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566642,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 100232,
+          "genreName": "その他肉類",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 567222,
+          "genreName": "精肉セット",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566612,
+          "genreName": "加工品",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 200956,
+              "genreName": "ソーセージ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 410825,
+                  "genreName": "あらびき",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 404934,
+                  "genreName": "ウインナーソーセージ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200957,
+                  "genreName": "骨付き",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410826,
+                  "genreName": "チョリソー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200961,
+                  "genreName": "フランクフルト",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200960,
+                  "genreName": "ボロニアソーセージ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200959,
+                  "genreName": "生ソーセージ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 100234,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 200963,
+              "genreName": "ハム",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 200968,
+                  "genreName": "ベリーハム",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200967,
+                  "genreName": "ボンレスハム",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 200965,
+                  "genreName": "ロースハム",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 100233,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 200964,
+              "genreName": "生ハム・プロシュート",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200969,
+              "genreName": "サラミ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404936,
+              "genreName": "ベーコン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566643,
+              "genreName": "ジャーキー・燻製",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566644,
+              "genreName": "コンビーフ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566645,
+              "genreName": "フォアグラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200962,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 101770,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "genreId": 200990,
+      "genreName": "野菜・きのこ",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 404946,
+          "genreName": "アスパラガス",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201010,
+          "genreName": "かぼちゃ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204815,
+          "genreName": "キャベツ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204820,
+          "genreName": "キュウリ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204829,
+          "genreName": "ごぼう",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304644,
+          "genreName": "サツマイモ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410877,
+          "genreName": "里芋",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214051,
+          "genreName": "ジャガイモ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410879,
+          "genreName": "生姜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204827,
+          "genreName": "大根",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200991,
+          "genreName": "たまねぎ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304651,
+          "genreName": "とうもろこし",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214054,
+          "genreName": "トマト",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200992,
+          "genreName": "ナス",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410881,
+          "genreName": "ニラ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204826,
+          "genreName": "にんじん",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304652,
+          "genreName": "にんにく",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201008,
+          "genreName": "ねぎ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204817,
+          "genreName": "白菜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204818,
+          "genreName": "ほうれん草",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410883,
+          "genreName": "らっきょう",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204816,
+          "genreName": "レタス",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 502875,
+          "genreName": "その他野菜",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 410866,
+              "genreName": "明日葉",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410868,
+              "genreName": "エシャロット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204819,
+              "genreName": "大葉・しそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410871,
+              "genreName": "オクラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410872,
+              "genreName": "かぶ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410873,
+              "genreName": "カリフラワー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568575,
+              "genreName": "菊芋",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304653,
+              "genreName": "行者にんにく",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568730,
+              "genreName": "銀杏",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410876,
+              "genreName": "小松菜",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201012,
+              "genreName": "ゴーヤー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410878,
+              "genreName": "春菊",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204824,
+              "genreName": "セロリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201007,
+              "genreName": "たけのこ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 565979,
+              "genreName": "パクチー・コリアンダー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204823,
+              "genreName": "パセリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204822,
+              "genreName": "ピーマン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204821,
+              "genreName": "ブロッコリー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410882,
+              "genreName": "水菜",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201011,
+              "genreName": "ヤーコン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214057,
+              "genreName": "山芋・自然薯",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410884,
+              "genreName": "ルッコラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204828,
+              "genreName": "れんこん",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 502876,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 502877,
+          "genreName": "豆類",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214045,
+              "genreName": "小豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410867,
+              "genreName": "インゲンマメ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204830,
+              "genreName": "枝豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 502878,
+              "genreName": "えんどう",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201005,
+              "genreName": "黒豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201006,
+              "genreName": "大豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304654,
+              "genreName": "ひよこ豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304655,
+              "genreName": "落花生",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 502880,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 200996,
+          "genreName": "きのこ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 200997,
+              "genreName": "しいたけ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410874,
+              "genreName": "しめじ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200998,
+              "genreName": "まつたけ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200999,
+              "genreName": "エリンギ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201000,
+              "genreName": "えのき",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201001,
+              "genreName": "トリュフ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201002,
+              "genreName": "なめこ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201003,
+              "genreName": "まいたけ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304643,
+              "genreName": "ポルチーニ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201004,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 304647,
+          "genreName": "山菜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566613,
+          "genreName": "カット野菜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566614,
+          "genreName": "水煮野菜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201013,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 100248,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100246,
+      "genreName": "フルーツ・果物",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 502854,
+          "genreName": "アボカド",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200978,
+          "genreName": "あんず",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304588,
+          "genreName": "いちご",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 502855,
+          "genreName": "イチジク",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304614,
+          "genreName": "梅",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304593,
+          "genreName": "オレンジ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304597,
+          "genreName": "柿",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404940,
+          "genreName": "かぼす",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200976,
+          "genreName": "キウイフルーツ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214041,
+          "genreName": "栗",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 502856,
+          "genreName": "グレープフルーツ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304602,
+          "genreName": "さくらんぼ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 509730,
+          "genreName": "ザクロ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 568227,
+          "genreName": "じゃばら",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304607,
+          "genreName": "スイカ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200988,
+          "genreName": "すだち",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200985,
+          "genreName": "ドラゴンフルーツ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200974,
+          "genreName": "ドリアン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 502866,
+          "genreName": "パイナップル",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566895,
+          "genreName": "パッションフルーツ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410842,
+          "genreName": "バナナ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200982,
+          "genreName": "パパイヤ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 509731,
+          "genreName": "びわ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304609,
+          "genreName": "ブドウ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200977,
+          "genreName": "プラム",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200980,
+          "genreName": "ブルーベリー",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410850,
+          "genreName": "マンゴー",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304613,
+          "genreName": "マンゴスチン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204805,
+          "genreName": "みかん",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200989,
+          "genreName": "ミラクルフルーツ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404942,
+          "genreName": "メロン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304618,
+          "genreName": "桃",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 568228,
+          "genreName": "ゆず",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304622,
+          "genreName": "洋梨",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 555721,
+          "genreName": "ライチ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304633,
+          "genreName": "りんご",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200984,
+          "genreName": "レモン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304626,
+          "genreName": "和梨",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 110457,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 112668,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 201085,
+      "genreName": "卵",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 201088,
+          "genreName": "烏骨鶏卵",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201087,
+          "genreName": "うずら卵",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201086,
+          "genreName": "鶏卵",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201089,
+          "genreName": "ピータン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201092,
+          "genreName": "温泉たまご",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201091,
+          "genreName": "燻製卵・くんたま",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201090,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 100235,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100268,
+      "genreName": "惣菜",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 100269,
+          "genreName": "和風惣菜",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566646,
+              "genreName": "刺身・たたき",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568516,
+              "genreName": "焼き魚",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566647,
+              "genreName": "蒲焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566648,
+              "genreName": "白焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404953,
+              "genreName": "佃煮",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214065,
+              "genreName": "おでん",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509740,
+              "genreName": "おにぎり",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214077,
+              "genreName": "お茶漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214078,
+              "genreName": "雑炊",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410713,
+              "genreName": "ひつまぶし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214079,
+              "genreName": "丼",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 566681,
+                  "genreName": "親子丼",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 566682,
+                  "genreName": "カツ丼",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 566683,
+                  "genreName": "牛丼",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 566684,
+                  "genreName": "豚丼",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201017,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 207338,
+              "genreName": "焼豚",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404951,
+              "genreName": "焼き鳥・つくね",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568611,
+              "genreName": "唐揚げ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201015,
+              "genreName": "煮物",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 553251,
+              "genreName": "お好み焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 553254,
+              "genreName": "もんじゃ焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566649,
+              "genreName": "たこ焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567707,
+              "genreName": "天ぷら",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567708,
+              "genreName": "天かす・揚げ玉",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567709,
+              "genreName": "茶碗蒸し",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567710,
+              "genreName": "卵焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568517,
+              "genreName": "卯の花",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568518,
+              "genreName": "なます・酢の物",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568519,
+              "genreName": "おひたし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110474,
+              "genreName": "お粥",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201198,
+              "genreName": "おこわ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201197,
+              "genreName": "赤飯",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204871,
+              "genreName": "寿司",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566650,
+              "genreName": "みそ汁",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567706,
+              "genreName": "お吸い物",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566651,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 101777,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 100275,
+          "genreName": "洋風惣菜",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201024,
+              "genreName": "グラタン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304662,
+              "genreName": "コロッケ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201025,
+              "genreName": "サラダ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304664,
+              "genreName": "シチュー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566652,
+              "genreName": "ハヤシライス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100276,
+              "genreName": "スープ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566653,
+              "genreName": "テリーヌ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304665,
+              "genreName": "ドリア",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410908,
+              "genreName": "とんかつ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 566685,
+                  "genreName": "ヒレ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 566686,
+                  "genreName": "ロース",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 566687,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 214104,
+              "genreName": "ハンバーグ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568612,
+              "genreName": "ハンバーガー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110526,
+              "genreName": "ピザ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214105,
+              "genreName": "リゾット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568613,
+              "genreName": "パエリア",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304666,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 101778,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 100278,
+          "genreName": "中華惣菜・点心",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566654,
+              "genreName": "エビチリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110534,
+              "genreName": "スープ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566655,
+              "genreName": "酢豚",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566656,
+              "genreName": "中華ポテト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566657,
+              "genreName": "角煮",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566658,
+              "genreName": "北京ダック",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566659,
+              "genreName": "蒸し鶏",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201035,
+              "genreName": "麻婆豆腐",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201046,
+              "genreName": "揚げもち",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214106,
+              "genreName": "餃子",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 214111,
+                  "genreName": "生餃子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214110,
+                  "genreName": "水餃子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 304669,
+                  "genreName": "セット・詰め合わせ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 100281,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 100280,
+              "genreName": "シュウマイ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201044,
+              "genreName": "小籠包",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201043,
+              "genreName": "ちまき",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410911,
+              "genreName": "肉まん",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410913,
+              "genreName": "あんまん",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201042,
+              "genreName": "春巻き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201045,
+              "genreName": "饅頭",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201047,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201048,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 562052,
+          "genreName": "韓国惣菜",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566660,
+              "genreName": "参鶏湯",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563210,
+              "genreName": "スープ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563212,
+              "genreName": "チヂミ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 562055,
+              "genreName": "トッポギ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566661,
+              "genreName": "プルコギ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 202680,
+              "genreName": "ナムル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566662,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410914,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 304670,
+          "genreName": "アジアン・エスニック惣菜",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 404967,
+              "genreName": "タイ料理",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 566688,
+                  "genreName": "トムヤムクン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 564656,
+                  "genreName": "セット・詰め合わせ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 304671,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 404969,
+              "genreName": "ベトナム料理",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 404970,
+                  "genreName": "フォー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 404971,
+                  "genreName": "生春巻",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 404972,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 567705,
+              "genreName": "南米料理",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 567741,
+                  "genreName": "タコス",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567742,
+                  "genreName": "トルティーヤ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 502896,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 566663,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201049,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 509741,
+          "genreName": "弁当・駅弁",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410894,
+          "genreName": "鍋セット",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 410899,
+              "genreName": "ちゃんこ鍋",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410897,
+              "genreName": "すき焼き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410900,
+              "genreName": "水炊き",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563974,
+              "genreName": "もつ鍋",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410895,
+              "genreName": "石狩鍋",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410896,
+              "genreName": "きりたんぽ鍋",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410898,
+              "genreName": "キムチ鍋",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204831,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 214099,
+          "genreName": "カレー",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214058,
+          "genreName": "おせちセット",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 410890,
+              "genreName": "和風おせちセット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410888,
+              "genreName": "中華おせちセット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410889,
+              "genreName": "洋風おせちセット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567491,
+              "genreName": "和洋おせちセット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567492,
+              "genreName": "和洋中おせちセット",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567493,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 566615,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100256,
+      "genreName": "麺類",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 110487,
+          "genreName": "ラーメン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 509742,
+          "genreName": "つけ麺",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204864,
+          "genreName": "長崎ちゃんぽん",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 509743,
+          "genreName": "沖縄そば",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201093,
+          "genreName": "うどん",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201099,
+          "genreName": "そば",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410924,
+          "genreName": "そうめん",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204862,
+          "genreName": "ひやむぎ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404980,
+          "genreName": "焼きそば",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410933,
+          "genreName": "冷麺",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 110494,
+          "genreName": "パスタ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 412233,
+              "genreName": "ロングパスタ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 412234,
+                  "genreName": "カッペリーニ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 412235,
+                  "genreName": "フェットチーネ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 412236,
+                  "genreName": "フェデレリーニ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 412237,
+                  "genreName": "スパゲッティーニ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 412238,
+                  "genreName": "スパゲティー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 412239,
+                  "genreName": "リングイネ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567746,
+                  "genreName": "ブカティーニ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201109,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 567713,
+              "genreName": "ショートパスタ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 201110,
+                  "genreName": "マカロニ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567743,
+                  "genreName": "ペンネ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567744,
+                  "genreName": "フジッリ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567745,
+                  "genreName": "ファルファーレ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410936,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 567711,
+              "genreName": "ラザニア",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567712,
+              "genreName": "ニョッキ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567714,
+              "genreName": "クスクス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112676,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 567687,
+          "genreName": "ライスヌードル",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 304678,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 101774,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100293,
+      "genreName": "パン・ジャム・シリアル",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 564081,
+          "genreName": "パン",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 100297,
+              "genreName": "食パン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214285,
+              "genreName": "菓子パン",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 214286,
+                  "genreName": "あんパン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214287,
+                  "genreName": "クリームパン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214288,
+                  "genreName": "ジャムパン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214289,
+                  "genreName": "チョコレートパン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 214290,
+                  "genreName": "メロンパン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 100295,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 410976,
+              "genreName": "フランスパン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201129,
+              "genreName": "プレッツェル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304733,
+              "genreName": "グリッシーニ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204872,
+              "genreName": "クロワッサン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201210,
+              "genreName": "スコーン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204874,
+              "genreName": "惣菜パン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100296,
+              "genreName": "デニッシュ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304734,
+              "genreName": "ドイツパン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201212,
+              "genreName": "ベーグル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201211,
+              "genreName": "イングリッシュマフィン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567729,
+              "genreName": "フォカッチャ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204873,
+              "genreName": "ロールパン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566674,
+              "genreName": "ナン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 564084,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 564083,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 566623,
+          "genreName": "シリアル",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 566675,
+              "genreName": "コーンフレーク",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566676,
+              "genreName": "オートミール",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566677,
+              "genreName": "ミューズリー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566678,
+              "genreName": "グラノーラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566679,
+              "genreName": "玄米フレーク",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566680,
+              "genreName": "ブラン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204876,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 567681,
+          "genreName": "ジャム・はちみつ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 110477,
+              "genreName": "ジャム・コンフィチュール",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567221,
+              "genreName": "はちみつ・ハニー",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 507768,
+                  "genreName": "はちみつ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567251,
+                  "genreName": "マヌカハニー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567252,
+                  "genreName": "巣蜜・コムハニー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567253,
+                  "genreName": "ナッツのはちみつ漬け",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 562080,
+              "genreName": "メープルシロップ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 502932,
+              "genreName": "チョコレートクリーム",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404976,
+              "genreName": "ピーナッツクリーム・ピーナッツバター",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 502933,
+              "genreName": "ミルククリーム",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207838,
+              "genreName": "コンポート",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204814,
+              "genreName": "ピューレ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567704,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 567682,
+          "genreName": "クルトン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204875,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100262,
+      "genreName": "チーズ・乳製品",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 110502,
+          "genreName": "チーズ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201076,
+              "genreName": "青カビ・ブルー",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 201078,
+                  "genreName": "ゴルゴンゾーラ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 564085,
+                  "genreName": "スティルトン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 564086,
+                  "genreName": "ロックフォール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 564087,
+                  "genreName": "フルムダンベール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110507,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 201059,
+              "genreName": "白カビ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 201060,
+                  "genreName": "カマンベール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201061,
+                  "genreName": "サンタンドレ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 507821,
+                  "genreName": "ブリー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110504,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 567254,
+              "genreName": "ウォッシュ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 567269,
+                  "genreName": "モン・ドール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567270,
+                  "genreName": "エポワス",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 567271,
+                  "genreName": "マンステール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110505,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 110506,
+              "genreName": "シェーブル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201079,
+              "genreName": "セミハード",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 567268,
+                  "genreName": "ラクレット",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201081,
+                  "genreName": "エダム",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410915,
+                  "genreName": "エメンタール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201080,
+                  "genreName": "ゴーダ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410916,
+                  "genreName": "チェダー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410917,
+                  "genreName": "ミモレット",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110509,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 201062,
+              "genreName": "ハード",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 201068,
+                  "genreName": "エメンタール",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201070,
+                  "genreName": "チェダー",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201069,
+                  "genreName": "パルミジャーノ・レッジャーノ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410918,
+                  "genreName": "ペコリーノ・ロマーノ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 564088,
+                  "genreName": "コンテ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110508,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 201071,
+              "genreName": "フレッシュ",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 410919,
+                  "genreName": "カッテージチーズ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201072,
+                  "genreName": "クリームチーズ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201074,
+                  "genreName": "フロマージュブラン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201075,
+                  "genreName": "マスカルポーネ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201073,
+                  "genreName": "モッツァレラ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410920,
+                  "genreName": "ブルサン",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 410921,
+                  "genreName": "リコッタ",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 110503,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 200113,
+              "genreName": "プロセス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404973,
+              "genreName": "チーズフォンデュ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 564422,
+              "genreName": "スモークチーズ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509759,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112678,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 404974,
+          "genreName": "バター",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507822,
+              "genreName": "有塩バター",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404977,
+              "genreName": "無塩バター",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 214119,
+          "genreName": "マーガリン",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214120,
+          "genreName": "ヨーグルト",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214121,
+              "genreName": "ソフトヨーグルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 404978,
+              "genreName": "カスピ海ヨーグルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566693,
+              "genreName": "ギリシャヨーグルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214122,
+              "genreName": "ドリンクヨーグルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509760,
+              "genreName": "低脂肪ヨーグルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509761,
+              "genreName": "無糖ヨーグルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509762,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100266,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 214124,
+          "genreName": "コーヒー用ミルク",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 509763,
+          "genreName": "生クリーム・ホイップクリーム",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 101775,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 201018,
+      "genreName": "豆腐・納豆・こんにゃく",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 214093,
+          "genreName": "豆腐",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214094,
+              "genreName": "絹ごし豆腐",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410904,
+              "genreName": "がんもどき",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214095,
+              "genreName": "ごま豆腐",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214096,
+              "genreName": "木綿豆腐",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214097,
+              "genreName": "寄せ豆腐",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567715,
+              "genreName": "厚揚げ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567717,
+              "genreName": "おから",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410903,
+              "genreName": "油揚げ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214066,
+              "genreName": "巾着",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201019,
+              "genreName": "湯葉",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567716,
+              "genreName": "豆腐よう",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214098,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100273,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 214085,
+          "genreName": "納豆",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214086,
+              "genreName": "大粒納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214087,
+              "genreName": "中粒納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214088,
+              "genreName": "小粒納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214089,
+              "genreName": "極小粒納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214090,
+              "genreName": "黒豆納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214091,
+              "genreName": "ひきわり納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214092,
+              "genreName": "ワラ納豆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100274,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 214067,
+          "genreName": "こんにゃく・しらたき",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100250,
+      "genreName": "漬物・梅干し・キムチ",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 110463,
+          "genreName": "漬物",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 110469,
+              "genreName": "浅漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110466,
+              "genreName": "かす漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204847,
+              "genreName": "こうじ漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204848,
+              "genreName": "塩漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204849,
+              "genreName": "しば漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110465,
+              "genreName": "しょうゆ漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110468,
+              "genreName": "酢漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566637,
+              "genreName": "たくあん漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204850,
+              "genreName": "ぬか漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204851,
+              "genreName": "福神漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204852,
+              "genreName": "松前漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110467,
+              "genreName": "みそ漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204853,
+              "genreName": "もろみ漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204854,
+              "genreName": "らっきょう漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204855,
+              "genreName": "わさび漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207816,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 112670,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 204856,
+          "genreName": "梅干し",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 214115,
+              "genreName": "赤じそ漬け",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207817,
+              "genreName": "田舎梅干し",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207818,
+              "genreName": "梅干しにんにく",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204858,
+              "genreName": "小梅",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204860,
+              "genreName": "しそ梅",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214117,
+              "genreName": "白梅干し",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204861,
+              "genreName": "はちみつ梅",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214118,
+              "genreName": "焼梅干し",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566822,
+              "genreName": "ねり梅",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566823,
+              "genreName": "きざみ梅",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566824,
+              "genreName": "干し梅",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 207819,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100254,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201050,
+          "genreName": "キムチ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 202677,
+          "genreName": "水キムチ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566616,
+          "genreName": "メンマ・ザーサイ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 100253,
+          "genreName": "ピクルス",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 567220,
+          "genreName": "オリーブ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 101773,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 200911,
+      "genreName": "練り物",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 200915,
+          "genreName": "かまぼこ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214021,
+          "genreName": "紅白かまぼこ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200914,
+          "genreName": "笹かまぼこ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200912,
+          "genreName": "さつまあげ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404904,
+          "genreName": "じゃこ天",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404905,
+          "genreName": "伊達巻",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204801,
+          "genreName": "ちくわ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200913,
+          "genreName": "はんぺん",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 568444,
+          "genreName": "しんじょ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 567747,
+          "genreName": "魚肉ソーセージ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 200916,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 100242,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 100300,
+      "genreName": "調味料",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 201233,
+          "genreName": "砂糖・甘味料",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201234,
+              "genreName": "上白糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201235,
+              "genreName": "黒砂糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201238,
+              "genreName": "グラニュー糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201237,
+              "genreName": "ざら糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201241,
+              "genreName": "氷砂糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201240,
+              "genreName": "三温糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201236,
+              "genreName": "和三盆",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201239,
+              "genreName": "角砂糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567725,
+              "genreName": "ガムシロップ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568614,
+              "genreName": "オリゴ糖",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214261,
+              "genreName": "人工甘味料",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566665,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100304,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201227,
+          "genreName": "しお",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201228,
+              "genreName": "岩塩",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201232,
+              "genreName": "クリスタルソルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201230,
+              "genreName": "ハーブソルト",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566666,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100303,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201242,
+          "genreName": "酢",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201250,
+              "genreName": "果実酢",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201245,
+              "genreName": "玄米酢",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201243,
+              "genreName": "穀物酢",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201244,
+              "genreName": "米酢",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201249,
+              "genreName": "バルサミコ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201247,
+              "genreName": "赤ワインビネガー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201248,
+              "genreName": "白ワインビネガー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566667,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100305,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201221,
+          "genreName": "しょうゆ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201222,
+              "genreName": "濃口しょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201223,
+              "genreName": "薄口しょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201225,
+              "genreName": "減塩しょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201224,
+              "genreName": "たまりじょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509746,
+              "genreName": "再仕込みしょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509747,
+              "genreName": "白しょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509748,
+              "genreName": "刺身しょうゆ・だししょうゆ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201226,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100302,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201213,
+          "genreName": "みそ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201217,
+              "genreName": "赤みそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201216,
+              "genreName": "白みそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509749,
+              "genreName": "米みそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201215,
+              "genreName": "粒みそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214293,
+              "genreName": "豆みそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201214,
+              "genreName": "麦みそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201218,
+              "genreName": "合わせみそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201220,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100301,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 568588,
+          "genreName": "料理酒",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507734,
+              "genreName": "発酵調味料",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 568615,
+              "genreName": "清酒・合成清酒",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 411014,
+          "genreName": "みりん",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 411015,
+              "genreName": "本みりん",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411016,
+              "genreName": "みりん風調味料",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411017,
+              "genreName": "発酵調味料",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201251,
+          "genreName": "油",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201258,
+              "genreName": "えごま油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201252,
+              "genreName": "オリーブオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 564662,
+              "genreName": "ココナッツオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201259,
+              "genreName": "玄米油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201253,
+              "genreName": "ごま油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201256,
+              "genreName": "こめ油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201254,
+              "genreName": "サラダ油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201257,
+              "genreName": "椿油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214291,
+              "genreName": "なたね油・キャノーラ油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201255,
+              "genreName": "べに花油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 565985,
+              "genreName": "グレープシードオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 565986,
+              "genreName": "亜麻仁油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567724,
+              "genreName": "大豆油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567718,
+              "genreName": "ひまわり油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567720,
+              "genreName": "コーン油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567721,
+              "genreName": "トリュフオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567719,
+              "genreName": "アボカドオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567722,
+              "genreName": "ピーナッツオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567723,
+              "genreName": "マスタードオイル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201260,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100306,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 567688,
+          "genreName": "ラード",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410994,
+          "genreName": "だし",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 410995,
+              "genreName": "かつおだし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410996,
+              "genreName": "こんぶだし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566061,
+              "genreName": "あごだし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566668,
+              "genreName": "あわせだし",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 410997,
+              "genreName": "ブイヨン・コンソメ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 200406,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201287,
+          "genreName": "めんつゆ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507735,
+          "genreName": "ポン酢",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507736,
+              "genreName": "かぼす",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507737,
+              "genreName": "すだち",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507738,
+              "genreName": "ゆず",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201288,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 204877,
+          "genreName": "ソース・たれ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 204878,
+              "genreName": "ウスターソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 214292,
+              "genreName": "オイスターソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204884,
+              "genreName": "お好み焼きソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204881,
+              "genreName": "ステーキソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204882,
+              "genreName": "デミグラスソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204880,
+              "genreName": "とんかつソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204879,
+              "genreName": "中濃ソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 204883,
+              "genreName": "焼きそばソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 110496,
+              "genreName": "パスタソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201285,
+              "genreName": "焼肉のたれ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100310,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 100308,
+          "genreName": "ケチャップ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201261,
+          "genreName": "ドレッシング",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201263,
+              "genreName": "梅ドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201262,
+              "genreName": "ごまドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509750,
+              "genreName": "かぼすドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201266,
+              "genreName": "和風ドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411004,
+              "genreName": "イタリアンドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411005,
+              "genreName": "フレンチドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201265,
+              "genreName": "中華ドレッシング",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201267,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100314,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 100307,
+          "genreName": "マヨネーズ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 568303,
+          "genreName": "ラーメンスープ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410999,
+          "genreName": "中華調味料",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 411000,
+              "genreName": "甜麺醤・テンメンジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411001,
+              "genreName": "豆板醤・トウバンジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411002,
+              "genreName": "辣醤・ラァジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 555834,
+              "genreName": "辣油・ラー油",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100313,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 563218,
+          "genreName": "韓国調味料",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 563219,
+              "genreName": "コチュジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566669,
+              "genreName": "テンジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566670,
+              "genreName": "チョングッジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566671,
+              "genreName": "サムジャン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563222,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 566617,
+          "genreName": "アジアン・エスニック調味料",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 564658,
+              "genreName": "ココナッツミルク",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 564659,
+              "genreName": "スイートチリソース",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 405060,
+              "genreName": "魚醤・ナンプラー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566672,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 201268,
+          "genreName": "スパイス",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507739,
+              "genreName": "オニオン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507740,
+              "genreName": "ガーリック",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507741,
+              "genreName": "カルダモン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507742,
+              "genreName": "クローブ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 566673,
+              "genreName": "コリアンダー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507743,
+              "genreName": "サフラン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201272,
+              "genreName": "シナモン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507744,
+              "genreName": "ジンジャー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507745,
+              "genreName": "スターアニス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201273,
+              "genreName": "ターメリック",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509751,
+              "genreName": "唐辛子",
+              "genreLevel": 4,
+              "children": [
+                {
+                  "genreId": 509752,
+                  "genreName": "一味唐辛子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 509753,
+                  "genreName": "島とうがらし",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 507761,
+                  "genreName": "七味唐辛子",
+                  "genreLevel": 5,
+                  "children": []
+                },
+                {
+                  "genreId": 201269,
+                  "genreName": "その他",
+                  "genreLevel": 5,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "genreId": 207839,
+              "genreName": "山椒・花椒",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201271,
+              "genreName": "ナツメグ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201274,
+              "genreName": "パプリカ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201275,
+              "genreName": "ブラックペッパー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201276,
+              "genreName": "ホワイトペッパー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100309,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 507747,
+          "genreName": "ハーブ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 201270,
+              "genreName": "オレガノ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201278,
+              "genreName": "セージ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201279,
+              "genreName": "タイム",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507749,
+              "genreName": "バジル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507750,
+              "genreName": "パセリ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507751,
+              "genreName": "ペパーミント",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507752,
+              "genreName": "マジョラム",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507753,
+              "genreName": "レモングラス",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 201277,
+              "genreName": "ローズマリー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507754,
+              "genreName": "ローレル",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507755,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 507756,
+          "genreName": "ミックススパイス・混合調味料",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507757,
+              "genreName": "ガラム・マサラ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507758,
+              "genreName": "ごましお",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507759,
+              "genreName": "シナモンシュガー",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507760,
+              "genreName": "ブーケガルニ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509755,
+              "genreName": "柚子胡椒",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507762,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 304735,
+          "genreName": "わさび",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410885,
+          "genreName": "生わさび",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 567689,
+          "genreName": "料理の素",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 565951,
+              "genreName": "鍋の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411006,
+              "genreName": "炊き込みご飯の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567726,
+              "genreName": "寿司の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567727,
+              "genreName": "チャーハンの素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563214,
+              "genreName": "麻婆豆腐の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563215,
+              "genreName": "麻婆茄子の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563216,
+              "genreName": "回鍋肉の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 563217,
+              "genreName": "八宝菜の素",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 567728,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 304736,
+          "genreName": "からし・マスタード",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 304737,
+              "genreName": "粒",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304738,
+              "genreName": "ディジョン",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 304739,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 411007,
+          "genreName": "ふりかけ",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 411008,
+              "genreName": "おかか",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411009,
+              "genreName": "さけ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411010,
+              "genreName": "しそ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411011,
+              "genreName": "たらこ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411012,
+              "genreName": "ちりめんじゃこ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 411013,
+              "genreName": "のりたま",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 502936,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100311,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 566054,
+          "genreName": "麹",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 564424,
+          "genreName": "酒粕",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201289,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 101784,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 507818,
+      "genreName": "粉類",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 204885,
+          "genreName": "片栗粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410989,
+          "genreName": "小麦粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204887,
+          "genreName": "コーンスターチ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201282,
+          "genreName": "天ぷら粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204886,
+          "genreName": "パン粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 404979,
+          "genreName": "そば粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566618,
+          "genreName": "米粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566619,
+          "genreName": "から揚げ粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566621,
+          "genreName": "お好み焼・たこ焼き粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566620,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507819,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 410901,
+      "genreName": "乾物",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 507806,
+          "genreName": "海苔",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507808,
+              "genreName": "味付け海苔",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507809,
+              "genreName": "焼き海苔",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507810,
+              "genreName": "きざみ海苔・もみ海苔",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507807,
+              "genreName": "青海苔",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 509756,
+              "genreName": "韓国海苔",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507811,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100426,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 507798,
+          "genreName": "鰹節",
+          "genreLevel": 3,
+          "children": [
+            {
+              "genreId": 507799,
+              "genreName": "仕上節",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507800,
+              "genreName": "薄削り節",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507801,
+              "genreName": "厚削り節",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 507802,
+              "genreName": "セット・詰め合わせ",
+              "genreLevel": 4,
+              "children": []
+            },
+            {
+              "genreId": 100453,
+              "genreName": "その他",
+              "genreLevel": 4,
+              "children": []
+            }
+          ]
+        },
+        {
+          "genreId": 507803,
+          "genreName": "さば節",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410723,
+          "genreName": "だし昆布",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566622,
+          "genreName": "とろろ昆布",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410746,
+          "genreName": "乾燥わかめ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410728,
+          "genreName": "乾燥ひじき",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 568626,
+          "genreName": "乾燥もずく",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 214019,
+          "genreName": "煮干",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 562077,
+          "genreName": "春雨",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 100279,
+          "genreName": "フカヒレ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410986,
+          "genreName": "ごま",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201281,
+          "genreName": "きな粉",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410902,
+          "genreName": "麩",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507812,
+          "genreName": "干ししいたけ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507813,
+          "genreName": "切干大根",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507814,
+          "genreName": "かんぴょう",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 410905,
+          "genreName": "高野豆腐",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201021,
+          "genreName": "その他",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 507779,
+      "genreName": "缶詰",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 507780,
+          "genreName": "水産物加工品",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507785,
+          "genreName": "肉加工品",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 502895,
+          "genreName": "野菜・きのこ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 204813,
+          "genreName": "フルーツ・果物",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 201029,
+          "genreName": "惣菜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507786,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 507788,
+      "genreName": "瓶詰",
+      "genreLevel": 2,
+      "children": [
+        {
+          "genreId": 507789,
+          "genreName": "水産物加工品",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507790,
+          "genreName": "肉加工品",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507791,
+          "genreName": "野菜・きのこ",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507792,
+          "genreName": "フルーツ・果物",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 566624,
+          "genreName": "惣菜",
+          "genreLevel": 3,
+          "children": []
+        },
+        {
+          "genreId": 507793,
+          "genreName": "セット・詰め合わせ",
+          "genreLevel": 3,
+          "children": []
+        }
+      ]
+    },
+    {
+      "genreId": 101769,
+      "genreName": "その他",
+      "genreLevel": 2,
+      "children": []
+    }
+  ]
+}
