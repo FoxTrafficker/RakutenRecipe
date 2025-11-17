@@ -38,13 +38,7 @@ def get_recipes_by_category(category_id, limit=5):
 
 if __name__ == "__main__":
     cat_id = "10-276"  # 举例：豚肉
-    recipes = get_recipes_by_category(cat_id, limit=3)
+    recipes = get_recipes_by_category(cat_id, limit=10)
 
     for r in recipes:
-        print("ランキング:", r["rank"])
-        print("title:", r["title"])
-        print("リンク:", r["url"])
-        print("画像:", r["image"])
-        print("材料:", ", ".join(r["materials"]))
-        print("时间:", r["time"], "费用:", r["cost"])
-        print("-" * 40)
+        print(r)
