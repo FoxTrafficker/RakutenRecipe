@@ -5,7 +5,7 @@ import requests
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
 
-from .services import get_recipes_by_category
+from .services import get_recipes_by_category, get_ranking_by_genre
 
 APP_ID = "1044782825325736656"
 MAP_PATH = "./script/genre_category_mapping/simple_full_word_mapping.json"
@@ -28,6 +28,9 @@ class Recipe:
 
 @require_GET
 def recipe(request):
+    """
+    GET /recipe?food_genreId=1144&limit=1
+    """
     recipe = Recipe()
     food_genreId = request.GET.get("food_genreId")
     if not food_genreId:
@@ -63,8 +66,58 @@ def recipe(request):
             "data": []
         }, status=500)
 
+    # Response
     return JsonResponse({
         "code": 0,
         "msg": "success",
         "data": recipes
     }, json_dumps_params={"ensure_ascii": False, 'indent': 4}, )
+
+
+@require_GET
+def ichiba_ranking(request):
+    """
+    GET /ichiba_ranking?genreId=100283&page=1
+    """
+    # genreId
+    genre_id = request.GET.get("genreId")
+    if not genre_id:
+        return JsonResponse({
+            "code": 400,
+            "msg": "can not find genreId",
+            "data": []
+        }, status=400)
+
+    # page
+    page_str = request.GET.get("page", "1")
+    try:
+        page = int(page_str)
+    except ValueError:
+        return JsonResponse({
+            "code": 400,
+            "msg": "page must be integer value",
+            "data": []
+        }, status=400)
+
+    # Rakuten API
+    try:
+        items = get_ranking_by_genre(genre_id, page=page)
+    except requests.exceptions.RequestException as e:
+        return JsonResponse({
+            "code": 502,
+            "msg": f"fail when calling Rakuten API: {e}",
+            "data": []
+        }, status=502)
+    except Exception as e:
+        return JsonResponse({
+            "code": 500,
+            "msg": f"server error: {e}",
+            "data": []
+        }, status=500)
+
+    # Response
+    return JsonResponse({
+        "code": 0,
+        "msg": "success",
+        "data": items
+    }, json_dumps_params={"ensure_ascii": False, 'indent': 4},)
