@@ -10,6 +10,10 @@ from .services import get_recipes_by_category
 APP_ID = "1044782825325736656"
 MAP_PATH = "./script/genre_category_mapping/simple_full_word_mapping.json"
 
+from django.shortcuts import render
+
+def index(request):
+    return render(request, "index.html")
 
 class Recipe:
     def __init__(self):
