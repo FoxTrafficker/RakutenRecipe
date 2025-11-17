@@ -45,21 +45,18 @@ def recipe(request):
     try:
         recipes = get_recipes_by_category(category_id, limit=limit)
     except requests.exceptions.RequestException as e:
-        # 调乐天 API 出错
         return JsonResponse({
             "code": 502,
             "msg": f"fail when calling Rakuten API: {e}",
             "data": []
         }, status=502)
     except Exception as e:
-        # 其他后端错误
         return JsonResponse({
             "code": 500,
             "msg": f"server error: {e}",
             "data": []
         }, status=500)
 
-    # 4. 正常返回
     return JsonResponse({
         "code": 0,
         "msg": "success",
