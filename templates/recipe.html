@@ -6,166 +6,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Detail</title>
-    <link rel="stylesheet" href= "{% static 'css/recipe.css' %}">
+    <link rel="stylesheet" href="{% static 'css/recipe.css' %}">
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="logo">Area</div>
-        <nav class="nav">
-            <a href="#">Benefits</a>
-            <a href="#">Specifications</a>
-            <a href="#">How-to</a>
-            <a href="#">Contact Us</a>
-        </nav>
-        <button class="learn-more">Learn More ></button>
-    </header>
+<!-- Header -->
+<header class="header">
+    <div class="logo">Balanced, Healthy, Clean</div>
+    <nav class="nav">
+        <a href="#">Benefits</a>
+        <a href="#">Specifications</a>
+        <a href="#">How-to</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <button class="learn-more">Learn More ></button>
+</header>
 
-    <hr class="divider">
+<hr class="divider">
 
-    <!-- Title -->
-    <section class="title-section">
-        <h1>☆時短☆豚こま＆ピーマンのチンジャオロース（ランキング3位）</h1>
-    </section>
+<!-- Title -->
+<section class="title-section">
+    <h1>☆時短☆豚こま＆ピーマンのチンジャオロース（ランキング3位）</h1>
+</section>
 
-    <!-- Main Content -->
-    <section class="content">
-        <div class="left">
-            <p>
-                豚こま肉とピーマンを使った時短レシピです。リンク先のレシピでは、片栗粉・塩・しょうゆで味をつけ、<br>
-                旨味・みりん・酒・オイスターソース・にんにくチューブを合わせて簡単調味で仕上げます。
-            </p>
-            <p>レシピはこちら：</p>
-            <a class="recipe-link" href="#">https://recipe.rakuten.co.jp/recipe/1106006093/?scid=…</a>
+<!-- Main Content -->
+<section class="content">
+    <div class="left">
+        <p>
+            豚こま肉とピーマンを使った時短レシピです。リンク先のレシピでは、片栗粉・塩・しょうゆで味をつけ、<br>
+            旨味・みりん・酒・オイスターソース・にんにくチューブを合わせて簡単調味で仕上げます。
+        </p>
+        <p>レシピはこちら：</p>
+        <a class="recipe-link" href="#">https://recipe.rakuten.co.jp/recipe/1106006093/?scid=…</a>
 
-            <p>
-                使用材料：豚こま、ピーマン、片栗粉、塩、しょうゆ、酒、みりん、<br>
-                オイスターソース、にんにくチューブ。
-            </p>
+        <p>
+            使用材料：豚こま、ピーマン、片栗粉、塩、しょうゆ、酒、みりん、<br>
+            オイスターソース、にんにくチューブ。
+        </p>
 
-            <ol class="steps">
-                <li>ピーマンは細切りにする。豚肉は食べやすい大きさに切ってから片栗粉をまぶします。☆は容器に合わせておく。</li>
-                <li>フライパンに油を入れて熱し、豚肉を炒めます。</li>
-                <li>肉の色が変わってきたらピーマンを入れて炒める（しゃきしゃき感は好みで☆）<br>さらに☆を入れて炒めます。</li>
-                <li>塩としょうゆで味を整えたら完成です。</li>
-            </ol>
+        <ol class="steps">
+            <li>ピーマンは細切りにする。豚肉は食べやすい大きさに切ってから片栗粉をまぶします。☆は容器に合わせておく。</li>
+            <li>フライパンに油を入れて熱し、豚肉を炒めます。</li>
+            <li>肉の色が変わってきたらピーマンを入れて炒める（しゃきしゃき感は好みで☆）<br>さらに☆を入れて炒めます。</li>
+            <li>塩としょうゆで味を整えたら完成です。</li>
+        </ol>
+    </div>
+
+    <div class="right">
+        <img class="main-image">
+    </div>
+</section>
+
+<!-- Recommended Section -->
+<section class="recommend">
+    <h3>あなたへのおすすめ</h3>
+
+    <div class="recommend-list">
+        <div class="item">
+            <p class="name">【ふるさと納税】 北海道…</p>
+            <p class="price">10,000円〜</p>
         </div>
 
-        <div class="right">
-            <img src="tinjyao.png" class="main-image">
+        <div class="item">
+            <p class="name">【ふるさと納税】 訳あり…</p>
+            <p class="price">8,000円〜</p>
         </div>
-    </section>
 
-    <!-- Recommended Section -->
-    <section class="recommend">
-        <h3>あなたへのおすすめ</h3>
-
-        <div class="recommend-list">
-            <div class="item">
-                <img src="item1.jpg">
-                <p class="name">【ふるさと納税】 北海道…</p>
-                <p class="price">10,000円〜</p>
-            </div>
-
-            <div class="item">
-                <img src="item2.jpg">
-                <p class="name">【ふるさと納税】 訳あり…</p>
-                <p class="price">8,000円〜</p>
-            </div>
-
-            <div class="item">
-                <img src="item3.jpg">
-                <p class="name">北海道ホタテ 1kg</p>
-                <p class="price">9,500円〜</p>
-            </div>
-
-            <div class="item">
-                <img src="item4.jpg">
-                <p class="name">【ふるさと納税】 手羽先…</p>
-                <p class="price">12,000円〜</p>
-            </div>
-
-            <div class="item">
-                <img src="item5.jpg">
-                <p class="name">【ふるさと納税】 和牛…</p>
-                <p class="price">13,000円〜</p>
-            </div>
+        <div class="item">
+            <p class="name">北海道ホタテ 1kg</p>
+            <p class="price">9,500円〜</p>
         </div>
-    </section>
 
-    <footer class="footer">
-        All Rights Reserved
-    </footer>
+        <div class="item">
+            <p class="name">【ふるさと納税】 手羽先…</p>
+            <p class="price">12,000円〜</p>
+        </div>
 
-    <div id="recipe-response" style="white-space:pre-wrap; padding:1rem; border-top:1px solid #ddd;"></div>
-    {% load static %}
+        <div class="item">
+            <p class="name">【ふるさと納税】 和牛…</p>
+            <p class="price">13,000円〜</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    All Rights Reserved
+</footer>
+
+<div id="recipe-response" style="white-space:pre-wrap; padding:1rem; border-top:1px solid #ddd;"></div>
+{% load static %}
 
 <!-- JSONデータを書くタグに置き換える -->
 <script>
-(async () => {
-    const url = "/api/get_recipe/?food_genreId=1&limit=5";
-    try {
-        const response = await fetch(url);
-        console.log("FETCH URL = ", url);
-        if (!response.ok) throw new Error(`status: ${response.status}`);
+    (async () => {
+        const urlParams = new URLSearchParams(location.search)
+        const food_genreId = urlParams.get("food_genreId");
+        const rank = urlParams.get("rank");
 
-        const result = await response.json();
-        console.log("API RESULT = ", result.data);  // ★ 追加
+        const url1 = `/api/get_recipe/?food_genreId=${food_genreId}`;
+        try {
+            const response = await fetch(url1);
+            if (!response.ok) throw new Error(`status: ${response.status}`);
 
-        const container = document.getElementById('recipe-response');
+            const result = await response.json();
+            const container = document.getElementById('recipe-response');
 
-        if (result.code !== 0) {
-            container.textContent = `Error: ${result.msg}`;
-            return;
-        }
+            if (result.code !== 0) {
+                container.textContent = `Error: ${result.msg}`;
+                return;
+            }
 
-        const recipes = result.data; // JSON の result 配列
+            const recipes = result.data;
+            if (!recipes || recipes.length === 0) {
+                container.textContent = "レシピが見つかりませんでした";
+                return;
+            }
 
-        if (!recipes || recipes.length === 0) {
-            container.textContent = "レシピが見つかりませんでした";
-            return;
-        }
+            const recipe = recipes[rank - 1];
 
-        // title-section を埋める（1件目のレシピタイトル）
-        const titleSection = document.querySelector('.title-section h1');
-        titleSection.textContent = recipes[0].title;
+            // タイトル
+            const titleSection = document.querySelector('.title-section h1');
+            titleSection.textContent = recipe.title;
 
-        // content セクションを埋める（1件目のレシピ詳細）
-        const contentLeft = document.querySelector('.content .left');
-        contentLeft.innerHTML = `
+            const contentLeft = document.querySelector('.content .left .steps');
+            contentLeft.innerHTML = `
             <p>レシピはこちら：</p>
-            <a class="recipe-link" href="${recipes[0].url}" target="_blank">${recipes[0].url}</a>
-            <h2>材料</h2>
-                <ul class 
+            <a class="recipe-link" href="${recipe.url}" target="_blank">${recipe.url}</a>
+
+            <h2 class="ingredients">材料</h2>
+            <ul class="ingredients_list">
+                ${recipe.materials.map(item => `<li class="recipe_item">${item}</li>`).join("")}
+            </ul>
+
             <ol class="steps">
-                <li>${recipes[0].time}で作れるレシピです。</li>
-                <li>材料を準備して調理します。</li>
-                <li>味を整えて完成です。</li>
+                <li>${recipe.time}で作れるレシピです。</li>
+
             </ol>
         `;
 
-        // 右側の画像を埋める
-        const contentRight = document.querySelector('.right');
-        contentRight.innerHTML = `<img src="${recipes[0].image}" class="main-image">`;
+            // 右側の画像
+            const contentRight = document.querySelector('.right');
+            contentRight.innerHTML = `<img src="${recipe.image}" class="main-image">`;
 
-        // recommend-list を埋める（複数レシピをおすすめとして表示）
-        const recommend_recipes = recipes
-        const recommendList = document.querySelector('.recommend-list');
-        recommendList.innerHTML = recipes
-            .map(r => `
-                <div class="item">
-                    <img src="${r.image}" alt="${r.title}">
-                    <p class="name"><a href=:"${r.url}" target="_blank"> ${r.title} </a></p>
-                    <p class="price">${r.cost}</p>
-                </div>
-            `)
-            .join("");
+            // 材料に合わせて商品を取得して表示
+            async function searchItem(material) {
 
-    } catch (error) {
-        document.getElementById('recipe-response').textContent = `Fetch Error: ${error}`;
-    }
-})();
+                // 材料名を正規化
+                const keyword = material
+                    .replace(/\(.+?\)/g, "")
+                    .replace(/（.+?）/g, "")
+                    .trim();
+
+                const url = `/ichiba_item_search?keyword=${encodeURIComponent(keyword)}&page=1&hits=5`;
+
+                const response = await fetch(url);
+                if (!response.ok) return null;
+
+                const result = await response.json();
+                return result.data.Items;
+            }
+
+            let allItemsHtml = "";
+
+            for (const material of recipes[0].materials) {
+                await new Promise(r => setTimeout(r, 300));
+
+                const items = await searchItem(material);
+                if (!items) continue;
+
+                const itemsHtml = items.map(item => `
+            <div class="item">
+                <img src="${item.mediumImageUrls?.[0] || ""}" alt="${item.itemName}">
+                <p class="name"><a href="${item.itemUrl}" target="_blank">${item.itemName}</a></p>
+                <p class="price">${item.itemPrice.toLocaleString()}円</p>
+            </div>
+        `).join("");
+
+                allItemsHtml += `
+            <h3>${material} に関連する商品</h3>
+            <div class="recommend-list">${itemsHtml}</div>
+        `;
+            }
+
+            document.querySelector(".recommend").innerHTML = allItemsHtml;
+
+        } catch (error) {
+            document.getElementById('recipe-response').textContent = `Fetch Error: ${error}`;
+        }
+    })();
 </script>
 
 </body>

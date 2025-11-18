@@ -38,11 +38,14 @@ class Recipe:
 def get_recipe(request):
     recipe = Recipe()
     food_genreId = request.GET.get("food_genreId")
+    print("food_genreId:", food_genreId)
     if not food_genreId:
         return JsonResponse(
             {"code": 400, "msg": "can not find food_genreId", "data": []}, status=400
         )
-    category_id = recipe.get_recipe_by_genre(food_genreId)
+    category_id = recipe.get_recipe_by_genre(str(food_genreId))
+    print("category_id:", category_id)
+    print("category_id:", type(category_id))
 
     limit_str = request.GET.get("limit", "5")
     try:
@@ -53,7 +56,7 @@ def get_recipe(request):
         )
 
     try:
-        recipes = get_recipes_by_category(category_id, limit=limit)
+        recipes = get_recipes_by_category(str(category_id), limit=limit)
     except requests.exceptions.RequestException as e:
         return JsonResponse({
             "code": 502,

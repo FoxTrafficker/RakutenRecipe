@@ -52,16 +52,33 @@ def load_food_genres():
 
 def load_recipe_categories():
     """加载 recipe 分类（large / medium / small）并扁平化"""
+    recipe_list = []
     with open(RECIPE_JSON, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-    recipe_list = []
     result = data.get("result", {})
+
+    medium_parent_map = {}
+    small_parent_map = {}
+    for level in ["large", "medium", "small"]:
+        for category in result.get(level, []):
+            c_id = str(category['categoryId'])
+            if level == "medium":
+                p_id = str(category['parentCategoryId'])
+                medium_parent_map[c_id] = p_id
+            if level == "small":
+                p_id = str(category['parentCategoryId'])
+                small_parent_map[c_id] = f"{medium_parent_map[p_id]}-{p_id}"
 
     for level in ["large", "medium", "small"]:
         for cat in result.get(level, []):
+            c_id = str(cat['categoryId'])
+            if level == "medium":
+                c_id = medium_parent_map[c_id]
+            if level == 'small':
+                c_id = small_parent_map[c_id]
+
             recipe_list.append({
-                "categoryId": cat["categoryId"],
+                "categoryId": c_id,
                 "categoryName": cat["categoryName"],
                 "level": level
             })
