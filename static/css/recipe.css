@@ -33,10 +33,9 @@ body {
     border: none;
     border-radius: 20px;
     font-size: 12px;
-
-    margin-right: 70px;   /* ← 追加（数値は好きに調整OK） */
+    margin-right: 70px;
+    /* ← 追加（数値は好きに調整OK） */
 }
-
 
 .divider {
     margin: 0 40px;
@@ -97,24 +96,47 @@ body {
     padding: 40px;
 }
 
+/* 材料ごとのセクション */
 .recommend h3 {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    /* 材料間の間隔 */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
 }
 
 .recommend-list {
     display: flex;
-    gap: 25px;
+    flex-wrap: wrap;
+    /* 複数商品を折り返す */
+    gap: 20px;
+    /* 商品間の隙間 */
+    margin-bottom: 20px;
+    /* 材料ごとのリスト間隔 */
+}
+
+.item {
+    width: 150px;
+    /* 商品カード幅 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .item img {
-    width: 150px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
 .name {
     font-size: 12px;
     margin-top: 5px;
+    word-break: break-word;
+    /* 長い名前も折り返す */
 }
 
 .price {
@@ -129,4 +151,35 @@ body {
     padding: 30px 40px;
     font-size: 10px;
     color: #aaa;
+}
+
+/* 小画面対応 */
+@media (max-width: 768px) {
+    .recommend-list {
+        justify-content: flex-start;
+    }
+
+    .item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .main-image {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
