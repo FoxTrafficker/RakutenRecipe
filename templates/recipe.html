@@ -53,7 +53,7 @@
         </div>
 
         <div class="right">
-            <img src="tinjyao.png" class="main-image">
+            <img class="main-image">
         </div>
     </section>
 
@@ -63,31 +63,26 @@
 
         <div class="recommend-list">
             <div class="item">
-                <img src="item1.jpg">
                 <p class="name">【ふるさと納税】 北海道…</p>
                 <p class="price">10,000円〜</p>
             </div>
 
             <div class="item">
-                <img src="item2.jpg">
                 <p class="name">【ふるさと納税】 訳あり…</p>
                 <p class="price">8,000円〜</p>
             </div>
 
             <div class="item">
-                <img src="item3.jpg">
                 <p class="name">北海道ホタテ 1kg</p>
                 <p class="price">9,500円〜</p>
             </div>
 
             <div class="item">
-                <img src="item4.jpg">
                 <p class="name">【ふるさと納税】 手羽先…</p>
                 <p class="price">12,000円〜</p>
             </div>
 
             <div class="item">
-                <img src="item5.jpg">
                 <p class="name">【ふるさと納税】 和牛…</p>
                 <p class="price">13,000円〜</p>
             </div>
@@ -125,11 +120,11 @@
 
         const recipe = recipes[0];
 
-        // タイトル・材料・手順
+        // タイトル
         const titleSection = document.querySelector('.title-section h1');
         titleSection.textContent = recipe.title;
 
-        const contentLeft = document.querySelector('.content .left');
+        const contentLeft = document.querySelector('.content .left .steps');
         contentLeft.innerHTML = `
             <p>レシピはこちら：</p>
             <a class="recipe-link" href="${recipe.url}" target="_blank">${recipe.url}</a>
@@ -141,8 +136,7 @@
 
             <ol class="steps">
                 <li>${recipe.time}で作れるレシピです。</li>
-                <li>材料を準備して調理します。</li>
-                <li>味を整えて完成です。</li>
+                
             </ol>
         `;
 
@@ -151,38 +145,46 @@
         contentRight.innerHTML = `<img src="${recipe.image}" class="main-image">`;
 
         // 材料に合わせて商品を取得して表示
-        const recommendList = document.querySelector('.recommend-list');
-        recommendList.innerHTML = "検索中...";
+       async function searchItem(material) {
 
-        let allItemsHtml = "";
+        // 材料名を正規化
+        const keyword = material
+            .replace(/\(.+?\)/g, "")
+            .replace(/（.+?）/g, "")
+            .trim();
 
-        for (const material of recipe.materials) {
-            const url2 = `/ichiba_item_search?keyword=${encodeURIComponent(material)}&page=1&hits=5`;
-            const response_items = await fetch(url2);
-            const result_items = await response_items.json();
-            const items = result_items.data?.Items || [];
+        const url = `/ichiba_item_search?keyword=${encodeURIComponent(keyword)}&page=1&hits=5`;
 
-            if (items.length === 0) continue;
+        const response = await fetch(url);
+        if (!response.ok) return null;
 
-            const itemsHtml = items.map(item => {
-                const name = item.itemName;
-                const price = item.itemPrice;
-                const img = item.mediumImageUrls?.[0] || "";
-                const url = item.itemUrl;
+        const result = await response.json();
+        return result.data.Items;
+    }
 
-                return `
-                    <div class="item">
-                        <img src="${img}" alt="${name}">
-                        <p class="name"><a href="${url}" target="_blank">${name}</a></p>
-                        <p class="price">${price.toLocaleString()}円</p>
-                    </div>
-                `;
-            }).join("");
+    let allItemsHtml = "";
 
-            allItemsHtml += `<h3>${material}に関連する商品</h3>${itemsHtml}`;
-        }
+    for (const material of recipes[0].materials) {
+        await new Promise(r => setTimeout(r, 300));
 
-        recommendList.innerHTML = allItemsHtml || "材料に対応する商品は見つかりませんでした";
+        const items = await searchItem(material);
+        if (!items) continue;
+
+        const itemsHtml = items.map(item => `
+            <div class="item">
+                <img src="${item.mediumImageUrls?.[0] || ""}" alt="${item.itemName}">
+                <p class="name"><a href="${item.itemUrl}" target="_blank">${item.itemName}</a></p>
+                <p class="price">${item.itemPrice.toLocaleString()}円</p>
+            </div>
+        `).join("");
+
+        allItemsHtml += `
+            <h3>${material} に関連する商品</h3>
+            <div class="recommend-list">${itemsHtml}</div>
+        `;
+    }
+
+    document.querySelector(".recommend").innerHTML = allItemsHtml;
 
     } catch (error) {
         document.getElementById('recipe-response').textContent = `Fetch Error: ${error}`;
