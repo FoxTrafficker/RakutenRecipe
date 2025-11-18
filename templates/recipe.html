@@ -1,10 +1,12 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Detail</title>
-    <link rel="stylesheet" href="recipe.css">
+    <link rel="stylesheet" href= "{% static 'css/recipe.css' %}">
 </head>
 <body>
 
@@ -95,6 +97,76 @@
     <footer class="footer">
         All Rights Reserved
     </footer>
+
+    <div id="recipe-response" style="white-space:pre-wrap; padding:1rem; border-top:1px solid #ddd;"></div>
+    {% load static %}
+
+<!-- JSONデータを書くタグに置き換える -->
+<script>
+(async () => {
+    const url = "/api/get_recipe/?food_genreId=1&limit=5";
+    try {
+        const response = await fetch(url);
+        console.log("FETCH URL = ", url);
+        if (!response.ok) throw new Error(`status: ${response.status}`);
+
+        const result = await response.json();
+        console.log("API RESULT = ", result.data);  // ★ 追加
+
+        const container = document.getElementById('recipe-response');
+
+        if (result.code !== 0) {
+            container.textContent = `Error: ${result.msg}`;
+            return;
+        }
+
+        const recipes = result.data; // JSON の result 配列
+
+        if (!recipes || recipes.length === 0) {
+            container.textContent = "レシピが見つかりませんでした";
+            return;
+        }
+
+        // title-section を埋める（1件目のレシピタイトル）
+        const titleSection = document.querySelector('.title-section h1');
+        titleSection.textContent = recipes[0].title;
+
+        // content セクションを埋める（1件目のレシピ詳細）
+        const contentLeft = document.querySelector('.content .left');
+        contentLeft.innerHTML = `
+            <p>レシピはこちら：</p>
+            <a class="recipe-link" href="${recipes[0].url}" target="_blank">${recipes[0].url}</a>
+            <h2>材料</h2>
+                <ul class 
+            <ol class="steps">
+                <li>${recipes[0].time}で作れるレシピです。</li>
+                <li>材料を準備して調理します。</li>
+                <li>味を整えて完成です。</li>
+            </ol>
+        `;
+
+        // 右側の画像を埋める
+        const contentRight = document.querySelector('.right');
+        contentRight.innerHTML = `<img src="${recipes[0].image}" class="main-image">`;
+
+        // recommend-list を埋める（複数レシピをおすすめとして表示）
+        const recommend_recipes = recipes
+        const recommendList = document.querySelector('.recommend-list');
+        recommendList.innerHTML = recipes
+            .map(r => `
+                <div class="item">
+                    <img src="${r.image}" alt="${r.title}">
+                    <p class="name"><a href=:"${r.url}" target="_blank"> ${r.title} </a></p>
+                    <p class="price">${r.cost}</p>
+                </div>
+            `)
+            .join("");
+
+    } catch (error) {
+        document.getElementById('recipe-response').textContent = `Fetch Error: ${error}`;
+    }
+})();
+</script>
 
 </body>
 </html>
