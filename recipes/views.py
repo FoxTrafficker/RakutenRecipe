@@ -3,11 +3,13 @@ import json
 
 import requests
 from django.http import JsonResponse
+
 from django.shortcuts import render
 from django.views.decorators.http import require_GET
 
 from .services import get_recipes_by_category, get_ranking_by_genre, search_ichiba_items
 
+APP_ID = "1044782825325736656"
 MAP_PATH = "./script/genre_category_mapping/simple_full_word_mapping.json"
 
 
@@ -29,29 +31,22 @@ class Recipe:
 
 
 @require_GET
-def recipe(request):
-    """
-    GET /recipe?food_genreId=1144&limit=1
-    """
+def get_recipe(request):
     recipe = Recipe()
     food_genreId = request.GET.get("food_genreId")
     if not food_genreId:
-        return JsonResponse({
-            "code": 400,
-            "msg": "can not find food_genreId",
-            "data": []
-        }, status=400)
+        return JsonResponse(
+            {"code": 400, "msg": "can not find food_genreId", "data": []}, status=400
+        )
     category_id = recipe.get_recipe_by_genre(food_genreId)
 
     limit_str = request.GET.get("limit", "5")
     try:
         limit = int(limit_str)
     except ValueError:
-        return JsonResponse({
-            "code": 400,
-            "msg": "limit must be integer value",
-            "data": []
-        }, status=400)
+        return JsonResponse(
+            {"code": 400, "msg": "limit must be integer value", "data": []}, status=400
+        )
 
     try:
         recipes = get_recipes_by_category(category_id, limit=limit)
@@ -187,3 +182,7 @@ def ichiba_item_search(request):
         "msg": "success",
         "data": api_result,
     }, json_dumps_params={"ensure_ascii": False, 'indent': 4})
+
+
+def recipe(request):
+    return render(request, "recipe.html")
