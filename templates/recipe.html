@@ -104,15 +104,12 @@
 <!-- JSONデータを書くタグに置き換える -->
 <script>
 (async () => {
-    const url = "/api/get_recipe/?food_genreId=1&limit=5";
+    const url1 = "/api/get_recipe/?food_genreId=1&limit=5";
     try {
-        const response = await fetch(url);
-        console.log("FETCH URL = ", url);
+        const response = await fetch(url1);
         if (!response.ok) throw new Error(`status: ${response.status}`);
 
         const result = await response.json();
-        console.log("API RESULT = ", result.data);  // ★ 追加
-
         const container = document.getElementById('recipe-response');
 
         if (result.code !== 0) {
@@ -120,47 +117,72 @@
             return;
         }
 
-        const recipes = result.data; // JSON の result 配列
-
+        const recipes = result.data;
         if (!recipes || recipes.length === 0) {
             container.textContent = "レシピが見つかりませんでした";
             return;
         }
 
-        // title-section を埋める（1件目のレシピタイトル）
-        const titleSection = document.querySelector('.title-section h1');
-        titleSection.textContent = recipes[0].title;
+        const recipe = recipes[0];
 
-        // content セクションを埋める（1件目のレシピ詳細）
+        // タイトル・材料・手順
+        const titleSection = document.querySelector('.title-section h1');
+        titleSection.textContent = recipe.title;
+
         const contentLeft = document.querySelector('.content .left');
         contentLeft.innerHTML = `
             <p>レシピはこちら：</p>
-            <a class="recipe-link" href="${recipes[0].url}" target="_blank">${recipes[0].url}</a>
-            <h2>材料</h2>
-                <ul class 
+            <a class="recipe-link" href="${recipe.url}" target="_blank">${recipe.url}</a>
+            
+            <h2 class="ingredients">材料</h2>
+            <ul class="ingredients_list">
+                ${recipe.materials.map(item => `<li class="recipe_item">${item}</li>`).join("")}
+            </ul>
+
             <ol class="steps">
-                <li>${recipes[0].time}で作れるレシピです。</li>
+                <li>${recipe.time}で作れるレシピです。</li>
                 <li>材料を準備して調理します。</li>
                 <li>味を整えて完成です。</li>
             </ol>
         `;
 
-        // 右側の画像を埋める
+        // 右側の画像
         const contentRight = document.querySelector('.right');
-        contentRight.innerHTML = `<img src="${recipes[0].image}" class="main-image">`;
+        contentRight.innerHTML = `<img src="${recipe.image}" class="main-image">`;
 
-        // recommend-list を埋める（複数レシピをおすすめとして表示）
-        const recommend_recipes = recipes
+        // 材料に合わせて商品を取得して表示
         const recommendList = document.querySelector('.recommend-list');
-        recommendList.innerHTML = recipes
-            .map(r => `
-                <div class="item">
-                    <img src="${r.image}" alt="${r.title}">
-                    <p class="name"><a href=:"${r.url}" target="_blank"> ${r.title} </a></p>
-                    <p class="price">${r.cost}</p>
-                </div>
-            `)
-            .join("");
+        recommendList.innerHTML = "検索中...";
+
+        let allItemsHtml = "";
+
+        for (const material of recipe.materials) {
+            const url2 = `/ichiba_item_search?keyword=${encodeURIComponent(material)}&page=1&hits=5`;
+            const response_items = await fetch(url2);
+            const result_items = await response_items.json();
+            const items = result_items.data?.Items || [];
+
+            if (items.length === 0) continue;
+
+            const itemsHtml = items.map(item => {
+                const name = item.itemName;
+                const price = item.itemPrice;
+                const img = item.mediumImageUrls?.[0] || "";
+                const url = item.itemUrl;
+
+                return `
+                    <div class="item">
+                        <img src="${img}" alt="${name}">
+                        <p class="name"><a href="${url}" target="_blank">${name}</a></p>
+                        <p class="price">${price.toLocaleString()}円</p>
+                    </div>
+                `;
+            }).join("");
+
+            allItemsHtml += `<h3>${material}に関連する商品</h3>${itemsHtml}`;
+        }
+
+        recommendList.innerHTML = allItemsHtml || "材料に対応する商品は見つかりませんでした";
 
     } catch (error) {
         document.getElementById('recipe-response').textContent = `Fetch Error: ${error}`;
