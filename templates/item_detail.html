@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Detail</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/food.css' %}" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">Area</div>
+      <nav class="nav">
+        <a href="#">Benefits</a>
+        <a href="#">Specifications</a>
+        <a href="#">How-to</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <button class="learn-more">Learn More ></button>
+    </header>
+
+    <hr class="divider" />
+
+    <!-- ====== 商品詳細 ====== -->
+    <section class="food-top">
+      <h1>Detailed Information of the Food</h1>
+
+      <div id="loading">Loading...</div>
+      <div id="error" class="error" style="display:none;"></div>
+
+      <div class="food-content">
+        <div class="left">
+          <h2 id="itemName"></h2>
+
+          <p id="itemCaption"></p>
+
+          <p>
+            <strong>Price: </strong>
+            <span id="itemPrice"></span>
+            <br />
+            <strong>Review: </strong>
+            <span id="reviewInfo"></span>
+            <br />
+            <strong>Shop: </strong>
+            <span id="shopName"></span>
+          </p>
+
+          <button class="more-info-btn">もっと見る</button>
+        </div>
+
+        <div class="right">
+          <img id="itemImage" class="food-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Recipe Ranking（動的に genreId から取得）====== -->
+    <section class="ranking">
+      <h2>Recipe Ranking</h2>
+
+      <div class="rank-list" id="rankList">
+        <!-- JS で埋める：rank-item 要素 -->
+      </div>
+    </section>
+
+    <footer class="footer">All Rights Reserved</footer>
+
+    <script>
+      const DETAIL_API_BASE = "/ichiba_item_detail";
+      const RECIPE_API_BASE = "/api/get_recipe/";  // /api/get_recipe/?food_genreId=201184
+
+      const urlParams = new URLSearchParams(location.search);
+      const itemCode = urlParams.get("itemCode");
+
+      if (!itemCode) {
+        const err = document.getElementById("error");
+        err.textContent = "No itemCode provided.";
+        err.style.display = "block";
+      } else {
+        loadItemDetail(itemCode);
+      }
+
+      async function loadItemDetail(code) {
+        const loading = document.getElementById("loading");
+        const error = document.getElementById("error");
+        loading.style.display = "block";
+
+        try {
+          const res = await fetch(
+            `${DETAIL_API_BASE}?itemCode=${encodeURIComponent(code)}`
+          );
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+          const json = await res.json();
+          if (json.code !== 0) throw new Error(json.msg || "API error");
+
+          const data = json.data;
+          renderDetail(data);
+        } catch (e) {
+          error.textContent = "Failed to load item detail: " + e.message;
+          error.style.display = "block";
+        } finally {
+          loading.style.display = "none";
+        }
+      }
+
+      function renderDetail(item) {
+        document.getElementById("itemName").textContent = item.itemName;
+        document.getElementById("itemCaption").textContent =
+          item.itemCaption || "(No description)";
+        document.getElementById("itemPrice").textContent =
+          "¥" + Number(item.itemPrice).toLocaleString("ja-JP");
+        document.getElementById("reviewInfo").textContent =
+          `${item.reviewAverage} (${item.reviewCount} reviews)`;
+        document.getElementById("shopName").textContent = item.shopName;
+
+        const img =
+          (item.mediumImageUrls && item.mediumImageUrls[0]) ||
+          (item.smallImageUrls && item.smallImageUrls[0]) ||
+          "";
+        document.getElementById("itemImage").src =
+          img.replace("_ex=128x128", "_ex=400x400");
+
+        // ⭐ ここで genreId からレシピランキングを取得
+        if (item.genreId) {
+          loadRecipeRanking(item.genreId);
+        }
+      }
+
+      // ====== Recipe Ranking を取得して描画 ======
+      async function loadRecipeRanking(foodGenreId) {
+        const list = document.getElementById("rankList");
+        list.innerHTML = "<div class='muted'>Loading recipes…</div>";
+
+        try {
+          const url = `${RECIPE_API_BASE}?food_genreId=${encodeURIComponent(
+            foodGenreId
+          )}`;
+          const res = await fetch(url);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+          const json = await res.json();
+          if (json.code !== 0) throw new Error(json.msg || "API error");
+
+          const recipes = Array.isArray(json.data) ? json.data : [];
+          renderRecipeRanking(recipes);
+        } catch (e) {
+          list.innerHTML =
+            "<div class='muted'>Failed to load recipes: " +
+            e.message +
+            "</div>";
+        }
+      }
+
+      function renderRecipeRanking(recipes) {
+        const list = document.getElementById("rankList");
+        list.innerHTML = "";
+
+        if (!recipes.length) {
+          list.innerHTML =
+            "<div class='muted'>No related recipes found.</div>";
+          return;
+        }
+
+        // ここでは上位3件だけ表示（必要なら .slice() を変更）
+        recipes
+          .sort((a, b) => (a.rank || 0) - (b.rank || 0))
+          .slice(0, 3)
+          .forEach((r) => {
+            const item = document.createElement("a");
+            item.className = "rank-item";
+            item.href = r.url;
+            item.target = "_blank";
+            item.rel = "noopener noreferrer";
+
+            const num = document.createElement("span");
+            num.className = "rank-num";
+            num.textContent = r.rank ?? "";
+
+            const title = document.createElement("span");
+            title.className = "rank-text";
+            title.textContent = r.title || "(no title)";
+
+            const img = document.createElement("img");
+            img.className = "food-image";
+            img.style.width = "120px";
+            img.style.height = "auto";
+            img.src = r.image || "https://via.placeholder.com/120x90?text=No+Img";
+            img.alt = r.title || "recipe";
+
+            item.appendChild(num);
+            item.appendChild(title);
+            item.appendChild(img);
+
+            list.appendChild(item);
+          });
+      }
+    </script>
+  </body>
+</html>

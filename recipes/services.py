@@ -74,3 +74,30 @@ def search_ichiba_items(keyword, page=1, hits=30, sort=None):
     resp = requests.get(url, params=params, timeout=10)
     resp.raise_for_status()
     return resp.json()
+
+
+def get_item_detail_by_code(item_code: str):
+    """
+    Use Ichiba Item Search API with itemCode to get single item detail.
+    """
+    url = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601"
+    params = {
+        "applicationId": APP_ID,
+        "format": "json",
+        "formatVersion": 2,
+        "itemCode": item_code,
+        "hits": 1,  # 只要一条
+        "page": 1,
+    }
+
+    resp = requests.get(url, params=params, timeout=10)
+    resp.raise_for_status()
+    data = resp.json()
+
+    items = data.get("Items") or data.get("items") or []
+    if not items:
+        return None
+
+    # formatVersion=2 时就是列表里直接是 item 对象
+    item = items[0]
+    return item

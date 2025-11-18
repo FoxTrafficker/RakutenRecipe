@@ -88,7 +88,7 @@
     // ======= Config =======
     const RANK_API_BASE = "http://127.0.0.1:8000/ichiba_ranking";
     const SEARCH_API_BASE = "http://127.0.0.1:8000/ichiba_item_search";
-    const DEFAULT_GENRE_ID = "100283"; // 排行榜默认 genre
+    const DEFAULT_GENRE_ID = "100227"; // 排行榜默认 genre
 
     let currentPage = 1;        // ranking 用
     let searchKeyword = "";     // search 用
@@ -137,8 +137,7 @@
 
     function createCard(item) {
         const a = document.createElement("a");
-        a.href = item.itemUrl;
-        a.target = "_blank";
+        a.href = `/item_detail?itemCode=${encodeURIComponent(item.itemCode)}`;
         a.rel = "noopener noreferrer";
 
         const card = document.createElement("div");
@@ -153,7 +152,7 @@
 
         const title = document.createElement("p");
         title.className = "title-text";
-        title.textContent = item.itemName || "(no title)";
+        title.textContent = item.itemName;
 
         const price = document.createElement("p");
         price.className = "price";
@@ -167,6 +166,7 @@
         a.appendChild(card);
         return a;
     }
+
 
     function setLoading(v) {
         document.getElementById("loading").style.display = v ? "block" : "none";

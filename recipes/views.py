@@ -7,7 +7,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.views.decorators.http import require_GET
 
-from .services import get_recipes_by_category, get_ranking_by_genre, search_ichiba_items
+from .services import get_recipes_by_category, get_ranking_by_genre, search_ichiba_items, get_item_detail_by_code
 
 APP_ID = "1044782825325736656"
 MAP_PATH = "./script/genre_category_mapping/simple_full_word_mapping.json"
@@ -17,8 +17,12 @@ def index(request):
     return render(request, "index.html")
 
 
-def food(request):
-    return render(request, "food.html")
+def recipe(request):
+    return render(request, "recipe.html")
+
+
+def item_detail(request):
+    return render(request, "item_detail.html")
 
 
 class Recipe:
@@ -184,5 +188,37 @@ def ichiba_item_search(request):
     }, json_dumps_params={"ensure_ascii": False, 'indent': 4})
 
 
-def recipe(request):
-    return render(request, "recipe.html")
+@require_GET
+def ichiba_item_detail(request):
+    """
+    GET /ichiba_item_detail?itemCode=yokumoku:10000435
+    """
+    item_code = request.GET.get("itemCode")
+    if not item_code:
+        return JsonResponse({
+            "code": 400,
+            "msg": "parameter 'itemCode' is required.",
+            "data": {}
+        }, status=400)
+
+    try:
+        item = get_item_detail_by_code(item_code)
+    except requests.exceptions.RequestException as e:
+        return JsonResponse({
+            "code": 502,
+            "msg": f"Rakuten Ichiba Item Search API failed: {e}",
+            "data": {}
+        }, status=502)
+
+    if not item:
+        return JsonResponse({
+            "code": 404,
+            "msg": "item not found",
+            "data": {}
+        }, status=404)
+
+    return JsonResponse({
+        "code": 0,
+        "msg": "success",
+        "data": item,
+    }, json_dumps_params={"ensure_ascii": False, 'indent': 4})
