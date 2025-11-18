@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background: white;
+    color: #111;
+}
+
+/* ----- NAVBAR ----- */
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+}
+
+.learn-btn {
+    background: #ff944d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* ----- HERO SECTION ----- */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.title {
+    font-size: 85px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.search-btn {
+    background: #ff944d;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ----- ITEMS SECTION ----- */
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-box {
+    padding: 10px;
+}
+
+.title-text {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.items a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+
+

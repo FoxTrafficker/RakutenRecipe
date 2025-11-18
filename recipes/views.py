@@ -15,6 +15,10 @@ def index(request):
     return render(request, "index.html")
 
 
+def food(request):
+    return render(request, "food.html")
+
+
 class Recipe:
     def __init__(self):
         with open(MAP_PATH, 'r', encoding='utf') as f:
@@ -75,7 +79,7 @@ def recipe(request):
 @require_GET
 def ichiba_ranking(request):
     """
-    GET /ichiba_ranking?genreId=100283&page=1
+    GET /ichiba_ranking?genreId=100227&page=1
     """
     # genreId
     genre_id = request.GET.get("genreId")
